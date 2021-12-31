@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 1.5em;
+  background: rgb(214 214 214);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 80vh;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  font-size: 1em;
+  padding: 2px 5px;
+}
+.password_color {
+  background-color: red;
+  height: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.button{
+    cursor: pointer;
+    padding: 2px 30px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+.welcome {
+    background-color: #60be60;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+  background: #c8c7c7;
+  display: block;
+  padding: 2px 100px;
+  color: #454545;
+}
