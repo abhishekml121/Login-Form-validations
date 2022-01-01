@@ -43,16 +43,19 @@ const Form = () => {
     switch (strength) {
       case 0:
         SetPasswordColor("transparent");
+        SetValidPassword(false);
         break;
 
       case 1:
       case 2:
         SetPasswordColor("red");
+        SetValidPassword(false);
         break;
 
       case 3:
       case 4:
         SetPasswordColor("yellow");
+        SetValidPassword(false);
         break;
 
       case 5:
